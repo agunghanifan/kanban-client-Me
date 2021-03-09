@@ -1,0 +1,203 @@
+#login-page {
+  font-family: 'Poppins', sans-serif;
+}
+
+#login-page .container-login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px;
+  background: linear-gradient(120deg, #73C8A9, #373B44);
+}
+
+#login-page .card-login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#login-page .square-login {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 50%;
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid #373B44;
+  border-radius: 10px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border: 1px solid #373B44;
+}
+
+#login-page .login-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 300px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#login-page .header-login-form {
+  line-height: 2;
+  padding-bottom: 50px;
+  font-size: 25px;
+  color: black;
+  display: block;
+}
+
+#login-page .register-button {
+  -ms-flex-line-pack: left;
+      align-content: left;
+}
+
+#register-page {
+  font-family: 'Poppins', sans-serif;
+}
+
+#register-page .container-login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px;
+  background: linear-gradient(120deg, #73C8A9, #373B44);
+}
+
+#register-page .card-login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#register-page .square-login {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 50%;
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid #373B44;
+  border-radius: 10px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border: 1px solid #373B44;
+}
+
+#register-page .login-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 300px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#register-page .header-login-form {
+  line-height: 2;
+  padding-bottom: 50px;
+  font-size: 25px;
+  color: black;
+  display: block;
+}
+
+#register-page .register-button {
+  -ms-flex-line-pack: left;
+      align-content: left;
+}
+
+#kanban-page {
+  font-family: 'Poppins', sans-serif;
+}
+
+#kanban-page .container-groups {
+  margin-top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#kanban-page .container-groups #back-log-head {
+  background-color: #F83201;
+}
+
+#kanban-page .container-groups #to-do-head {
+  background-color: #FA9900;
+}
+
+#kanban-page .container-groups #doing-head {
+  background-color: #3399FF;
+}
+
+#kanban-page .container-groups #done-head {
+  background-color: #32CC66;
+}
+
+#kanban-page .card {
+  border: 1px solid #373B44;
+  width: 428px;
+}
+/*# sourceMappingURL=style.css.map */
