@@ -1,4 +1,12 @@
 
+$bottom-diffused: 0px 13px 21px -10px rgba(0, 0, 0, 0.3);
+$left-diffused: -13px 0px 21px -10px rgba(0, 0, 0, 0.3);
+$right-diffused: 13px 0px 21px -10px rgba(0, 0, 0, 0.3);
+
+@mixin box-shadow($shadow) {
+    box-shadow: $shadow;
+}
+
 #login-page {
     font-family: 'Poppins', sans-serif;
     .container-login {
@@ -15,7 +23,7 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
-        align-items: center;
+        align-items: left;
     }
 
     .square-login {
@@ -93,7 +101,7 @@
     }
     .header-login-form {
         line-height: 2;
-        padding-bottom: 50px;
+        padding-bottom: 24px;
         font-size: 25px;
         color: black;
         display: block;
@@ -107,32 +115,50 @@
 
 #kanban-page {
     font-family: 'Poppins', sans-serif;
-    
-    .container-groups {
-        margin-top: 25px;
+    // display: flex;
+    .container-card {
         display: flex;
         justify-content: space-evenly;
+        margin: 10px;
+    }
+    .container-groups {
+        margin-top: 30px;
+        // display: flex;
+        // flex-direction: row;
+        // align-items:center;
+        // justify-content: space-evenly;
 
-        #back-log-head {
+        #Backlog {
             background-color: #F83201;
+            @include box-shadow($bottom-diffused);
         }
 
-        #to-do-head {
+        #To-Do {
             background-color: #FA9900;
+            @include box-shadow($bottom-diffused);
         }
 
-        #doing-head {
+        #Doing {
             background-color: #3399FF;
+            @include box-shadow($bottom-diffused);
         }
 
-        #done-head {
+        #Done {
             background-color: #32CC66;
+            @include box-shadow($bottom-diffused);
         }
     }
 
     .card {
-        border: 1px solid #373B44;
+        border-bottom: 3px solid #373B44;
         width: 428px;
+        margin: 10px;
+        @include box-shadow($bottom-diffused);
+        
+    }
+
+    .card-head {
+        border: 3px solid black;
     }
 }
 
