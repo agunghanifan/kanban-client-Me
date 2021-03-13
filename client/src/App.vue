@@ -27,7 +27,8 @@ import loginPage from "./views/login.vue"
 import registerPage from "./views/register.vue"
 import kanbanBoard from "./views/kanban-board.vue"
 import notFoundPage from "./views/not-found.vue"
-const baseUrl = "http://localhost:3000"
+const baseUrl = "https://kanban-board-agung-server.herokuapp.com"
+// const baseUrl = "http://localhost:3000"
 
 export default {
   name: "KanbanApp",
